@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<!--
+    HTML
+
+    Hypertext
+        hiper texto
+
+
+    Markup
+        Marcação de texto
+
+
+    Language
+        Linguagem
+-->
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecoleta</title>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/modal.css">
+
+
+    <link rel="stylesheet" href="/styles/responsive.css">
+</head>
+<body>
+
+    <div id="page-home">
+        <div class="content">
+            <header>
+                <img src="/assets/logo.svg" alt="Logomarca">
+                <a href="/create-point.html">
+                    <span></span>
+                    Cadastre um ponto de coleta
+                </a> 
+            </header>
+
+            <main>
+                <h1>Seu marketplace de coleta de resíduos</h1>
+                    
+        
+                <p>Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.</p>
+            
+                <a href="#"><span></span><strong>Pesquisar pontos de coleta</strong></a>
+
+
+            </main>
+    
+        </div>
+    </div>
+
+
+    <div id="modal" class="hide">
+        <div class="content">
+            <div class="header">
+                <h1>Pontos de Coleta</h1>
+                <a href="#">Fechar</a>
+            </div>
+            <form action="/search-results.html">
+                <label for="search">Cidade</label>
+                <div class="search field">
+                    <input 
+                    type="text" 
+                    name="search"
+                    placeholder="Pesquise por cidade"
+                    >
+                    <button>
+                        <img src="/assets/search.svg" alt="Buscar">
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="/scripts/index.js"></script>
+</body>
+</html>
